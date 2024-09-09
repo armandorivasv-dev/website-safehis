@@ -5,6 +5,7 @@ import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import { DialogPatient } from './dialog-patient';
 import { DialogClinic } from './dialog-clinic';
 import { DialogFarm } from './dialog-farm';
+import Image from 'next/image';
 
 export const Services = () => {
   const [openDialogPatient, setOpenDialogPatient] = useState(false);
