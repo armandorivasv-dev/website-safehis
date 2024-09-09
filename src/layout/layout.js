@@ -4,6 +4,7 @@ import React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import getCustomTheme from '@/styles/get-custom-theme';
 import CssBaseline from '@mui/material/CssBaseline';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { WhatsappFab } from '@/components/whatsapp-fab';
 
@@ -16,6 +17,7 @@ export const Layout = ({ children }) => {
         <CssBaseline />
         <TopNav mode={'light'} />
         <main>{children}</main>
+        <SpeedInsights />
         <Footer />
         <WhatsappFab />
       </ThemeProvider>
