@@ -104,10 +104,15 @@ export const Services = () => {
               xs={12}
             >
               <Card sx={{ minWidth: 300, padding: '40px', borderRadius: '50px' }}>
-                <CardMedia
-                  sx={{ height: 150, width: '100%', borderRadius: '30px' }}
-                  image={card.image}
-                  title={card.subtitle}
+                <Image
+                  src={card.image}
+                  alt={card.subtitle}
+                  width={300}
+                  height={150}
+                  layout='responsive'
+                  objectFit='cover'
+                  objectPosition='center'
+                  sx={{ borderRadius: '30px' }}
                 />
                 <CardContent>
                   <Stack
