@@ -26,9 +26,9 @@ function DevelopedBy() {
       color='text.secondary'
       mt={1}
     >
-      {'Developed By '}
+      {'Developed by '}
       <Link
-        href='https://armandorivasv-dev.web.app/'
+        href='https://www.armandorivasv.dev/'
         target='_blank'
       >
         @armandorivasv.dev&nbsp;
